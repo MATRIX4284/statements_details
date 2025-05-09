@@ -1,0 +1,144 @@
+Delivered-To: oracler4284@gmail.com
+Received: by 2002:a05:7108:5990:b0:402:675d:d5dc with SMTP id gw16csp381614gdb;
+        Tue, 4 Mar 2025 13:30:01 -0800 (PST)
+X-Google-Smtp-Source: AGHT+IGTRTq+n6YDG2AW6+JdaGvd9I8o3F8GB4w/5JQyHTr7b8goYGPeE7tW3+ugFx0mSw5MeraZ
+X-Received: by 2002:a05:6a20:2448:b0:1f3:1b78:cebb with SMTP id adf61e73a8af0-1f3495e3bf3mr349506637.9.1741123801185;
+        Tue, 04 Mar 2025 13:30:01 -0800 (PST)
+ARC-Seal: i=1; a=rsa-sha256; t=1741123801; cv=none;
+        d=google.com; s=arc-20240605;
+        b=L+Z7B8MuH9DRktFxJ/16j+DB2XzsLYHb/xRIIR2zUdm5N4Q2st5IMAM6uvgVlhZKWa
+         VWrOe/8/Je4XCaYtLRfFI2jDiXVYOY1j49hY0MunsPHDENh+ISc1p5iDhQAl4D18JXo7
+         Kq+ZsEkxU4gt3WMaUwHAApUk7pHRnAN9iKQa5jCwdwRHHQPznT+NbA1S2D13y9Bg557o
+         1ZU0n11/t4irm21vJpNMxvHNSpFmkj+6DoEQ/6C5snTJwNQIfRqzCZQRLVVhUfRF2ZEp
+         vgcAt/h7ilO+fGU9XfvGFCNDzrEeQq+ytVnJUej4FvP/M4haDTgZfSRea/rxXcrDTgxM
+         w4Sw==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20240605;
+        h=dkim-signature:auto-submitted:precedence:reply-to:message-id:date
+         :subject:to:from:mime-version;
+        bh=752/DKg35yyFheOCYuIS6V/8v94FDr6nkm7FD5qezbI=;
+        fh=wd9lkVOIAIyF+wsc1T7e7Ri73+thxXZvedrLMr34RoA=;
+        b=jes02LJgWsKb2GtMK48Oj/XG4FvXlWYnqMzdJLkLMI32fS380nAPyPhkcZVAHEJTuf
+         VXpUbKnE6m0Z//cGm9wZMn0E8bcyF9YGu6Ytu4gu4gfKhJdhoxrPiPeY4aiXfagFjwuB
+         d1zqBgh28m9ejYYSL5dpnYRXE/Z/t11q9frePWISxMCD4iOdlJBIxD5HLrGoaBLfitWa
+         3k14D66ySS+uOXgfgZ+BYhPJoyIUmqcQ3nal4zHpsdHFFDocQ55VlThuGm13GCqnAuuq
+         F+eFFw4BJobrpLD9JwQ5u/et23xwzfrTwhDKTbeoJb8xDwA9iURKCOzFQx81xXcQyGRW
+         LsOw==;
+        dara=google.com
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@mailer.zerodha.com header.s=jan2025 header.b=jfqaBQwP;
+       spf=pass (google.com: domain of support@mailer.zerodha.com designates 103.190.166.49 as permitted sender) smtp.mailfrom=support@mailer.zerodha.com;
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=mailer.zerodha.com
+Return-Path: <support@mailer.zerodha.com>
+Received: from mailer.zerodha.com (mailer.zerodha.com. [103.190.166.49])
+        by mx.google.com with ESMTPS id 41be03b00d2f7-af2220ccd75si11558803a12.127.2025.03.04.13.30.00
+        for <oracler4284@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Tue, 04 Mar 2025 13:30:01 -0800 (PST)
+Received-SPF: pass (google.com: domain of support@mailer.zerodha.com designates 103.190.166.49 as permitted sender) client-ip=103.190.166.49;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mailer.zerodha.com header.s=jan2025 header.b=jfqaBQwP;
+       spf=pass (google.com: domain of support@mailer.zerodha.com designates 103.190.166.49 as permitted sender) smtp.mailfrom=support@mailer.zerodha.com;
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=mailer.zerodha.com
+Received: (Haraka outbound); Wed, 05 Mar 2025 03:00:00 +0530
+Authentication-Results: mailer.zerodha.com;
+	auth=pass (cram-md5)
+Received: from localhost (ip-192-168-11-41.ap-south-1.compute.internal [192.168.11.41])
+	by mailer.zerodha.com (Haraka/2.8.28) with ESMTPSA id E1BE457B-4DA4-440E-825E-EFB218FEBF60.1
+	envelope-from <support@mailer.zerodha.com>
+	tls TLS_AES_256_GCM_SHA384 (authenticated bits=0);
+	Wed, 05 Mar 2025 03:00:00 +0530
+Content-Type: multipart/alternative;
+ boundary="=_748d247dc7e42747b6c0dd1b7d74d213"
+MIME-Version: 1.0
+From: "Zerodha Support" <support@mailer.zerodha.com>
+To: "Oracler4284" <oracler4284@gmail.com>
+Subject: How to get the Ledger Statement with all the transactions for month
+ of October 2024 [Ticket #20250304882524]- Zerodha Helpdesk
+Date: Tue, 04 Mar 2025 21:30:00 +0000
+Message-ID: <Bvc7tQ4-uE3vk-QNk+AAAAAAAcUJsAVUbxLgT4-support@mailer.zerodha.com>
+X-Mailer: osTicket Mailer
+Reply-To: support@zerodha.com
+Return-Path: support@mailer.zerodha.com
+Precedence: auto_reply
+X-Autoreply: yes
+X-Auto-Response-Suppress: DR, RN, OOF, AutoReply
+Auto-Submitted: auto-replied
+DKIM-Signature: v=1;a=rsa-sha256;bh=752/DKg35yyFheOCYuIS6V/8v94FDr6nkm7FD5qezbI=;c=relaxed/simple;d=mailer.zerodha.com;h=from:reply-to:subject:date:message-id:to:mime-version;s=jan2025;b=jfqaBQwPcSxVNns35j4Yx8Tz6KoxNLKwe3yVwwjoepSY8jOxL0A5iqfPAQ7bokkQfXJdFDi6lJC3opadQqhRMUvy3dRQe3rBpo4yIOU55PK1C7p5QHwfPwDQobgeDXM3gXXxkArx9oXHwoVa5EwENLMiRvuAtInO44iQfIbGCfcr1pVx/1BOh5Oa3v81YMIT+UptsePdx4OSeKCP5kviiVR6KiZOJowI8v+sQsQ+IG3GzSqEtEsvbCxH+OLHGMtWaeH9JNGFactHWbEVqadKOY7C1WxY3rxpMKDstkjQWuwDz8Cl27sbPOP90+fvtnZlq2aUEkzm9d9ignKxQ3QXbg==
+
+--=_748d247dc7e42747b6c0dd1b7d74d213
+Content-Transfer-Encoding: base64
+Content-Type: text/plain; charset=utf-8
+
+W2ltYWdlOlplcm9kaGEgbG9nb10gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogRGVhciBPcmFjbGVy
+NDI4NCwgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiBU
+aGFuayB5b3UgZm9yIHJlYWNoaW5nIG91dC4gWW91ciBzdXBwb3J0IHRpY2tldCAjMjAyNTAzMDQ4
+ODI1MjQgaXMgc3VjY2Vzc2Z1bGx5IGNyZWF0ZWQuIAogICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAKIFlvdSBjYW4gdHJhY2sgdGhlIHRpY2tldCBbaMyyZcyycsyyZcyyXShodHRwczov
+L3N1cHBvcnQuemVyb2RoYS5jb20vdGlja2V0cykuIElmIHlvdSBkb24ndCBoYXZlICAKIGFuIGFj
+Y291bnQgd2l0aCB1cyB5ZXQsIHlvdSBjYW4gZm9sbG93IHVwIG9uIHRoaXMgdGlja2V0IG9yIGFk
+ZCBhZGRpdGlvbmFsIGluZm9ybWF0aW9uIGJ5CiByZXBseWluZyB0byB0aGlzIGVtYWlsLiAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKIFN1YmplY3Q6IEhvdyB0byBn
+ZXQgdGhlIExlZGdlciBTdGF0ZW1lbnQgd2l0aCBhbGwgdGhlIHRyYW5zYWN0aW9ucyBmb3IgbW9u
+dGggb2YgT2N0b2JlciAgCiAyMDI0ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAKIE91ciBjdXN0b21lciBzZXJ2aWNlIHRlYW0gdXN1
+YWxseSByZXNwb25kcyB0byBhbGwgdGlja2V0cyB3aXRoaW4gMjQgaG91cnMuIEhvd2V2ZXIsIHdl
+ICAgCiB3aWxsIHRyeSBvdXIgYmVzdCB0byBwcm92aWRlIHlvdSB3aXRoIGEgcmVzb2x1dGlvbiBz
+b29uZXIuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAKIE91ciB0ZWFtIHdvcmtzIGJldHdlZW4gODozMCBBTSB0byA4OjMwIFBN
+IG9uIGFsbCB0cmFkaW5nIGRheXMuICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgIAogV2Ugd2lsbCBiZSBpbiB0b3VjaCBzb29uLCBhbmQg
+d2UgYXBwcmVjaWF0ZSB5b3VyIHBhdGllbmNlIGFuZCBjb29wZXJhdGlvbi4gICAgICAgICAgICAg
+ICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiBTdGF5IHNhZmUsICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgIAogVGVhbSBaZXJvZGhhICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgCiAgWmVyb2RoYSAoQykgMjAyMyAtIDE1My8xNTQsIDR0
+aCBDcm9zcyBEb2xsYXJzIENvbG9ueSwgSi5QIE5hZ2FyIDR0aCBQaGFzZSwgQmFuZ2Fsb3JlIC0g
+IAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA1NjAwNzgKUmVmLU1p
+ZDogQnZjN3RRNC11RTN2ay1RTmsrQUFBQUFBQWNVSnNBVlVieExnVDQtc3VwcG9ydEBtYWlsZXIu
+emVyb2RoYS5jb20K
+--=_748d247dc7e42747b6c0dd1b7d74d213
+Content-Transfer-Encoding: base64
+Content-Type: text/html; charset=utf-8
+
+PHRhYmxlIHN0eWxlPSJtYXJnaW46YXV0bzttYXgtd2lkdGg6NjAwcHgiIHdpZHRoPSIxMDAlIj48
+dGJvZHk+IDx0cj4gPHRkIHN0eWxlPSJtYXJnaW4tdG9wOjEwcHg7bWFyZ2luLXJpZ2h0OjEwcHg7
+bWFyZ2luLWJvdHRvbToxMHB4O3RleHQtYWxpZ246bGVmdDtwYWRkaW5nOjEwcHgiPjxpbWcgc3Jj
+PSJodHRwczovL3plcm9kaGEuY29tL3N0YXRpYy9pbWFnZXMvbG9nby5wbmciIGFsdD0iWmVyb2Ro
+YSBsb2dvIiB3aWR0aD0iMTIwIiBoZWlnaHQ9IjE1IiBzdHlsZT0ibWF4LXdpZHRoOjEyMHB4IiAv
+PjwvdGQ+IDwvdHI+IDx0cj4gPHRkIHN0eWxlPSJwYWRkaW5nOjEwcHgiIGNvbHNwYW49IjIiPiA8
+YnIgLz5EZWFyIE9yYWNsZXI0Mjg0LDxiciAvPjxiciAvPlRoYW5rIHlvdSBmb3IgcmVhY2hpbmcg
+b3V0LiBZb3VyIHN1cHBvcnQgdGlja2V0ICMyMDI1MDMwNDg4MjUyNCBpcyBzdWNjZXNzZnVsbHkg
+Y3JlYXRlZC48YnIgLz48YnIgLz5Zb3UgY2FuIHRyYWNrIHRoZSB0aWNrZXQgPGEgaHJlZj0iaHR0
+cHM6Ly9zdXBwb3J0Lnplcm9kaGEuY29tL3RpY2tldHMiPmhlcmU8L2E+LiBJZiB5b3UgZG9uJ3Qg
+aGF2ZSBhbiBhY2NvdW50IHdpdGggdXMgeWV0LCB5b3UgY2FuIGZvbGxvdyB1cCBvbiB0aGlzIHRp
+Y2tldCBvciBhZGQgYWRkaXRpb25hbCBpbmZvcm1hdGlvbiBieSByZXBseWluZyB0byB0aGlzIGVt
+YWlsLjxiciAvPjxiciAvPlN1YmplY3Q6IEhvdyB0byBnZXQgdGhlIExlZGdlciBTdGF0ZW1lbnQg
+d2l0aCBhbGwgdGhlIHRyYW5zYWN0aW9ucyBmb3IgbW9udGggb2YgT2N0b2JlciAyMDI0PGJyIC8+
+PGJyIC8+T3VyIGN1c3RvbWVyIHNlcnZpY2UgdGVhbSB1c3VhbGx5IHJlc3BvbmRzIHRvIGFsbCB0
+aWNrZXRzIHdpdGhpbiAyNCBob3Vycy4gSG93ZXZlciwgd2Ugd2lsbCB0cnkgb3VyIGJlc3QgdG8g
+cHJvdmlkZSB5b3Ugd2l0aCBhIHJlc29sdXRpb24gc29vbmVyLjxiciAvPjxiciAvPk91ciB0ZWFt
+IHdvcmtzIGJldHdlZW4gODozMCBBTSB0byA4OjMwIFBNIG9uIGFsbCB0cmFkaW5nIGRheXMuPGJy
+IC8+PGJyIC8+V2Ugd2lsbCBiZSBpbiB0b3VjaCBzb29uLCBhbmQgd2UgYXBwcmVjaWF0ZSB5b3Vy
+IHBhdGllbmNlIGFuZCBjb29wZXJhdGlvbi48YnIgLz48YnIgLz5TdGF5IHNhZmUsPGJyIC8+VGVh
+bSBaZXJvZGhhPGJyIC8+PGJyIC8+IDwvdGQ+IDwvdHI+IDx0cj4gPHRkIGNvbHNwYW49IjIiIHN0
+eWxlPSJ0ZXh0LWFsaWduOmNlbnRlciBzb2xpZCAjOWI5YjliIiBhbGlnbj0iY2VudGVyIj4gPHNw
+YW4gc3R5bGU9ImNvbG9yOnJnYigxMjcsIDEyNywgMTI3KSI+WmVyb2RoYSAoQykgMjAyMyAtIDE1
+My8xNTQsIDR0aCBDcm9zcyBEb2xsYXJzIENvbG9ueSwgSi5QIE5hZ2FyIDR0aCBQaGFzZSwgQmFu
+Z2Fsb3JlIC0gNTYwMDc4PC9zcGFuPjxiciAvPiA8L3RkPiA8L3RyPiA8L3Rib2R5PjwvdGFibGU+
+--=_748d247dc7e42747b6c0dd1b7d74d213--
